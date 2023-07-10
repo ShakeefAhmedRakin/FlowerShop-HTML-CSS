@@ -21,7 +21,7 @@
     border-style: none;
 }
 
-.para-style{
+.para-style {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-style: normal;
@@ -29,7 +29,7 @@
     line-height: 30px;
 }
 
-.first-heading-style{
+.first-heading-style {
     color: #272727;
     font-size: 40px;
     font-style: normal;
@@ -58,7 +58,7 @@ header {
     width: 708px;
 }
 
-.banner-content p{
+.banner-content p {
     margin: 32px 0px;
     width: 634px;
 }
@@ -130,25 +130,25 @@ header {
     align-items: center;
 }
 
-.deal-container{
+.deal-container {
     text-align: center;
 }
 
-#deal-off{
+#deal-off {
     color: #E55473;
 }
 
-.deal-text p{
+.deal-text p {
     margin-top: 24px;
     margin-bottom: 32px;
     width: 594px;
 }
 
-.deal-test button{
+.deal-test button {
     padding: 20px 43px;
 }
 
-.deal-flower-img{
+.deal-flower-img {
     width: 318px;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -156,38 +156,83 @@ header {
 
 /* INSTAGRAM SECTION */
 
-.insta-section{
+.insta-section {
     padding: 0px 230px;
     margin-bottom: 128px;
 }
 
-.insta-intro{
+.insta-intro {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.insta-section h1{
+.insta-section h1 {
     text-align: center;
 }
-.insta-section p{
+
+.insta-section p {
     text-align: center;
     margin-top: 24px;
     margin-bottom: 48px;
     width: 594px;
 }
 
-.insta-flower-container{
+.insta-flower-container {
     display: flex;
     justify-content: space-around;
 }
 
-.insta-flower-container img{
+.insta-flower-container img {
     width: 342px;
 }
 
 
 /* LATEST DEAL SECTION */
 
+.latestdeal-section {
+    padding: 0px 240px;
+    margin-bottom: 128px;
+}
 
+.latestdeal-banner {
+    background-image: url("../Flower\ Asset/Rectangle 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 449px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.latestdeal-banner h1 {
+    text-align: center;
+    margin-top: 122px;
+}
+
+.latestdeal-banner p {
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+.latestdeal-banner input {
+    width: 700px;
+    padding: 23px 0px 23px 23px;
+    border-radius: 8px;
+    background: #FFF;
+    flex-shrink: 0;
+    margin-bottom: 121px;
+    margin-right: 16px;
+    border-style: none;
+}
+
+.latestdeal-banner input::placeholder {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
