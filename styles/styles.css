@@ -75,7 +75,7 @@ header {
 /* SERVICES SECTION */
 
 .services-section {
-    padding: 0px 240px;
+    padding: 0px 260px;
     margin-bottom: 128px;
 }
 
@@ -101,4 +101,58 @@ header {
     font-weight: 600;
     line-height: 35px;
     margin-top: 24px;
+}
+
+
+/* HOT DEALS SECTION */
+
+
+.deal-section {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 0px 240px;
+}
+
+.deal-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.deal-container{
+    text-align: center;
+}
+
+.deal-text h1{
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+#deal-off{
+    color: #E55473;
+}
+
+.deal-text p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+    width: 594px;
+}
+
+.deal-test button{
+    padding: 20px 43px;
+}
+
+.deal-flower-img{
+    width: 318px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
