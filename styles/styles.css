@@ -236,3 +236,51 @@ header {
     line-height: normal;
 }
 
+/* FOOTER */
+
+
+footer {
+    background: #111010;
+    padding: 128px 0px;
+}
+
+.copyright-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer h1 {
+    color: #E55473;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+}
+
+footer h1 span {
+    color: #FFFFFF;
+}
+
+footer p {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+    width: 625px;
+}
+
+#copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
