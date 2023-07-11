@@ -44,9 +44,10 @@
 header {
     background: rgba(229, 84, 115, 0.10);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 0px 205px;
+    padding: 0px 240px;
+    margin-bottom: 128px;
 }
 
 .banner-content h1 {
@@ -76,9 +77,90 @@ header {
 /* FEATURED FLOWERS */
 
 
-.featured-section {
-    height: 1000px;
+.featured-section{
+    padding: 0px 240px;
+    margin-bottom: 128px;
 }
+
+.featured-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.insta-intro h1 {
+    featured-align: center;
+}
+
+.featured-intro p {
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 48px;
+    width: 594px;
+}
+
+.flower-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flower-box-1{
+    background-color: #f2dee8;
+    border-color: #f2dee8;
+    border-width: 100px 76px 0px 76px;
+    border-style: solid;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.flower-box-2{
+    background-color: #daf0f1;
+    border-color: #daf0f1;
+    border-width: 100px 76px 0px 76px;
+    border-style: solid;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.flower-box-3{
+    background-color: #e4ecdb;
+    border-color: #e4ecdb;
+    border-width: 100px 76px 0px 76px;
+    border-style: solid;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.flower-box-1 img{
+    margin-bottom: -3px;
+    width: 310px;
+}
+
+.flower-box-2 img{
+    margin-top: 37px;
+    margin-bottom: 78px;
+    width: 310px;
+}
+
+.flower-box-3 img{
+    margin-top: -37px;
+    margin-bottom: -3px;
+    width: 310px;
+}
+
+.featured-flower-text{
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin-top: 32px;
+}
+
+
 
 
 /* SERVICES SECTION */
@@ -100,7 +182,6 @@ header {
 
 .service-box {
     text-align: center;
-    margin-right: 100px;
 }
 
 .service-box p {
@@ -111,6 +192,7 @@ header {
     font-weight: 600;
     line-height: 35px;
     margin-top: 24px;
+    
 }
 
 
@@ -157,7 +239,7 @@ header {
 /* INSTAGRAM SECTION */
 
 .insta-section {
-    padding: 0px 230px;
+    padding: 0px 240px;
     margin-bottom: 128px;
 }
 
@@ -180,7 +262,7 @@ header {
 
 .insta-flower-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .insta-flower-container img {
