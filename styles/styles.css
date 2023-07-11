@@ -77,7 +77,7 @@ header {
 /* FEATURED FLOWERS */
 
 
-.featured-section{
+.featured-section {
     padding: 0px 240px;
     margin-bottom: 128px;
 }
@@ -88,10 +88,6 @@ header {
     align-items: center;
 }
 
-.insta-intro h1 {
-    featured-align: center;
-}
-
 .featured-intro p {
     text-align: center;
     margin-top: 24px;
@@ -99,13 +95,13 @@ header {
     width: 594px;
 }
 
-.flower-container{
+.flower-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.flower-box-1{
+.flower-box-1 {
     background-color: #f2dee8;
     border-color: #f2dee8;
     border-width: 100px 76px 0px 76px;
@@ -114,7 +110,7 @@ header {
     border-top-right-radius: 50%;
 }
 
-.flower-box-2{
+.flower-box-2 {
     background-color: #daf0f1;
     border-color: #daf0f1;
     border-width: 100px 76px 0px 76px;
@@ -123,7 +119,7 @@ header {
     border-top-right-radius: 50%;
 }
 
-.flower-box-3{
+.flower-box-3 {
     background-color: #e4ecdb;
     border-color: #e4ecdb;
     border-width: 100px 76px 0px 76px;
@@ -132,24 +128,24 @@ header {
     border-top-right-radius: 50%;
 }
 
-.flower-box-1 img{
+.flower-box-1 img {
     margin-bottom: -3px;
     width: 310px;
 }
 
-.flower-box-2 img{
+.flower-box-2 img {
     margin-top: 37px;
     margin-bottom: 78px;
     width: 310px;
 }
 
-.flower-box-3 img{
+.flower-box-3 img {
     margin-top: -37px;
     margin-bottom: -3px;
     width: 310px;
 }
 
-.featured-flower-text{
+.featured-flower-text {
     color: #272727;
     text-align: center;
     font-size: 24px;
@@ -158,6 +154,51 @@ header {
     line-height: 35px;
     text-decoration-line: underline;
     margin-top: 32px;
+}
+
+
+/* TESTIMONIALS */
+
+
+.test-section {
+    padding: 50px 240px;
+    margin-bottom: 128px;
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+.test-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.test-intro p {
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 48px;
+    width: 594px;
+}
+
+.review-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+.review-box {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0px 15px 15px 15px;
+}
+
+.review-box h1 {
+    font-size: 22px;
+    margin-bottom: 15px;
 }
 
 
@@ -192,7 +233,7 @@ header {
     font-weight: 600;
     line-height: 35px;
     margin-top: 24px;
-    
+
 }
 
 
@@ -326,7 +367,7 @@ footer {
     padding: 128px 0px;
 }
 
-.copyright-container{
+.copyright-container {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
