@@ -185,15 +185,13 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-
+    gap: 15px;
 }
-
 
 .review-box {
     padding: 20px;
     background-color: white;
     border-radius: 10px;
-    margin: 0px 15px 15px 15px;
 }
 
 .review-box h1 {
@@ -358,6 +356,11 @@ header {
     font-weight: 400;
     line-height: normal;
 }
+
+.latestdeal-banner button {
+    padding-top: 15px;
+}
+
 
 /* FOOTER */
 
